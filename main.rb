@@ -1,7 +1,7 @@
 require './Game'
 require './Player'
 
-# Create a new Game object along with two Player objects
+# Create a new Game object along with two Player objects that inherit from Game
 math_game = Game.new
 player1 = Player.new
 player2 = Player.new

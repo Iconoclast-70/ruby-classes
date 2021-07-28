@@ -45,7 +45,7 @@ math_game.set_player(1)
 playing = true
 
 while playing
-
+  #####
   # Generate a new random math question and get the answer from the current player
   puts math_game.generate_question
   print "> "
